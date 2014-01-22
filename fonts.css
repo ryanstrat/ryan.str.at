@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "ryanstrat";
+  src:url("fonts/ryanstrat.eot");
+  src:url("fonts/ryanstrat.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ryanstrat.woff") format("woff"),
+    url("fonts/ryanstrat.ttf") format("truetype"),
+    url("fonts/ryanstrat.svg#ryanstrat") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "ryanstrat" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "ryanstrat" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email:before {
+  content: "e";
+}
+.icon-twitter:before {
+  content: "t";
+}
+.icon-github:before {
+  content: "G";
+}
+.icon-linkedin:before {
+  content: "L";
+}
+.icon-apple:before {
+  content: "i";
+}
+.icon-android:before {
+  content: "a";
+}
+.icon-widget:before {
+  content: ">";
+}
+.icon-linux:before {
+  content: "l";
+}
+.icon-windows:before {
+  content: "w";
+}
+.icon-rss:before {
+  content: "r";
+}
+.icon-css3:before {
+  content: "3";
+}
+.icon-dropbox:before {
+  content: "D";
+}
+.icon-youtube:before {
+  content: "y";
+}
+.icon-fontawesome-webfont-10:before {
+  content: "j";
+}
+.icon-html5:before {
+  content: "5";
+}
+.icon-gplus:before {
+  content: "g";
+}
+.icon-nodejs:before {
+  content: "n";
+}
+.icon-angularjs:before {
+  content: "A";
+}
+.icon-database:before {
+  content: "d";
+}
