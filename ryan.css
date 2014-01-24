@@ -3,8 +3,34 @@ a {
     text-decoration:none;
 }
 
+a:hover {
+
+}
+
 body {
-    background-color: #309d5a;
-    font-family: "Lato", sans-serif;
+    background-color: #239f59;
+    font-family: "Open Sans", sans-serif;
     color: white; 
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+	position: relative;
+	top:50vh;
+	max-width: 50rem;
+	margin-top: -15rem;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.name {
+	font-family: "Roboto Slab","Rockwell",sans-serif;
+	font-weight: 700;
+	font-size: 6rem;
+	text-shadow: 2px 2px black;
+}
+
+.icons {
+	font-size: 3rem;
 }
