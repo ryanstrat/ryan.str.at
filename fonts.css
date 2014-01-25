@@ -56,9 +56,6 @@
 .icon-android:before {
   content: "a";
 }
-.icon-widget:before {
-  content: ">";
-}
 .icon-linux:before {
   content: "l";
 }
@@ -68,9 +65,6 @@
 .icon-rss:before {
   content: "r";
 }
-.icon-css3:before {
-  content: "3";
-}
 .icon-dropbox:before {
   content: "D";
 }
@@ -79,9 +73,6 @@
 }
 .icon-fontawesome-webfont-10:before {
   content: "j";
-}
-.icon-html5:before {
-  content: "5";
 }
 .icon-gplus:before {
   content: "g";
@@ -94,4 +85,37 @@
 }
 .icon-database:before {
   content: "d";
+}
+.icon-html5:before {
+  content: "5";
+}
+.icon-css3:before {
+  content: "3";
+}
+.icon-arrow-down:before {
+  content: "W";
+}
+.icon-arrow-1-up:before {
+  content: "b";
+}
+.icon-fontawesome-webfont:before {
+  content: "b";
+}
+.icon-circuit:before {
+  content: "n";
+}
+.icon-circuit:before {
+  content: "b";
+}
+.icon-circuit:before {
+  content: "b";
+}
+.icon-nodejs-black:before {
+  content: "b";
+}
+.icon-circuit:before {
+  content: "c";
+}
+.icon-arrow-up:before {
+  content: "u";
 }
