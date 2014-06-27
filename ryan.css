@@ -46,7 +46,7 @@ body {
 
 .tooltip:hover:after{
     background: #061F11;
-    border-radius: 5px;
+    border-radius: 3px;
     bottom: 63px;
     color: #fff;
     content: attr(title);
